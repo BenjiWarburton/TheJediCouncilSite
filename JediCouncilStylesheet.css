@@ -115,6 +115,21 @@ li.dropdown {
     padding: 100px;
 }
 
+#showcase3 {
+    background: center url("img/applepark.jpg");
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#showcase3 h1{
+    color: antiquewhite;
+    font-size: 70px;
+    line-height: 1.6em;
+    padding: 100px;
+}
+
 #main {
     float: left;
     width: 62%;
