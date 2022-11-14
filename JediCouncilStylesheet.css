@@ -115,7 +115,7 @@ li.dropdown {
     padding: 100px;
 }
 
-#showcase3 {
+#showcaseBigTechReg {
     background: center url("img/applepark.jpg");
     min-height: 300px;
     margin-bottom: 30px;
@@ -123,11 +123,30 @@ li.dropdown {
     margin-top: 10px;
 }
 
-#showcase3 h1{
+#showcaseBigTechReg h1{
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
     padding: 100px;
+}
+
+#showcaseDigitalDivide {
+
+}
+
+#showcaseDigitalDivide h1{
+    color: antiquewhite;
+    font-size: 70px;
+    line-height: 1.6em;
+    padding: 100px;
+}
+
+#showcaseDRR {
+
+}
+
+#showcaseDRR {
+
 }
 
 #main {
