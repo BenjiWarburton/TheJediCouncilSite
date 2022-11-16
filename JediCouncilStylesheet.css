@@ -115,7 +115,7 @@ li.dropdown {
     padding: 100px;
 }
 
-#showcase3 {
+#showcaseBigTechReg {
     background: center url("img/applepark.jpg");
     min-height: 300px;
     margin-bottom: 30px;
@@ -123,18 +123,36 @@ li.dropdown {
     margin-top: 10px;
 }
 
-#showcase3 h1{
+#showcaseBigTechReg h1{
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
     padding: 100px;
 }
 
+#showcaseDigitalDivide {
+
+}
+
+#showcaseDigitalDivide h1{
+    color: antiquewhite;
+    font-size: 70px;
+    line-height: 1.6em;
+    padding: 100px;
+}
+
+#showcaseDRR {
+
+}
+
+#showcaseDRR {
+
+}
+
 #main {
     float: left;
-    width: 62%;
-    padding: 20px;
-    margin-right: 3%;
+    width: 65%;
+    margin-right: 5%;
     box-sizing: border-box;
     text-align: left;
 
@@ -147,16 +165,25 @@ li.dropdown {
 
 #sidebar {
     float: right;
-    width: 35%;
+    width: 30%;
     color: white;
     background: darkslategrey;
     box-sizing: border-box;
     text-align: justify;
 }
 
-#sidebar p {
-    padding: 20px;
+.caption {
+    font-size: 15px;
+    text-align: center;
+}
 
+#sidebar p {
+    padding: 5%;
+}
+
+#sidebar img {
+    margin: 5% 5% 0 5%;
+    width: 90%;
 }
 
 @media(max-width:600px) {
