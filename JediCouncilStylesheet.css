@@ -131,7 +131,11 @@ li.dropdown {
 }
 
 #showcaseDigitalDivide {
-
+    background: center url("img/School.jpg");
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #showcaseDigitalDivide h1{
@@ -155,12 +159,15 @@ li.dropdown {
     margin-right: 5%;
     box-sizing: border-box;
     text-align: left;
-
 }
 
 #main p {
     text-align: justify;
     text-indent: 0.5in;
+}
+
+#main dd {
+    text-align: justify;
 }
 
 #sidebar {
