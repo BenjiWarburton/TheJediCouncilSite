@@ -115,6 +115,15 @@ li.dropdown {
     padding: 100px;
 }
 
+#showcaseDesignFRR {
+    background: center url("img/blurredDesignFRR.jpg");
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
 #showcaseBigTechReg {
     background: center url("img/applepark.jpg");
     min-height: 300px;

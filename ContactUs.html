@@ -26,22 +26,40 @@
                     <a href="BigTechRegulations.html">Regulation of Big Tech</a>
                 </div>
             </li>
-            <li><a href="ContactUs.html">Contact us</a></li>
+            <li><a href="ContactUS.html">Contact us</a></li>
         </ul>
     </div>
 
 <!-- Showcase -->
-    <section id = "showcase2">
+    <section id = "showcaseDigitalDivide">
         <div class = "container">
-            <h1>About Us</h1>
+            <h1>Contact Us</h1>
         </div>
     </section>
 
     <div class = "container">
         <!-- Main -->
         <section id = "main">
-            <h1><em>We are the Jedi Council,</em></h1>
-            <p>The Jedi Council was founded on October 31, 2022, by Benji Warburton, Jake Bowie, and Jedi Podeesamer. We are an organisation whose aim is to bring to light the issues surrounding technology such as digital divide, problems concerning design for reuse and repair, and regulation of big tech. We also wish to propose certain policies which can be implemented as a response to the issues at hand.</p>
+            <h1><em>Get in touch</em></h1>
+            <p>If you believe our policies can make a difference, feel free to sign up to our newsletter here.</p>
+            <form action="/signup" method="post" id="signup">
+                <h1>Sign Up</h1>
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"/>
+                    <small></small>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email address"/>.
+                    <small></small>
+                </div>
+                <p></p>
+                <button type="submit">Subscribe</button>
+            </form>
+
+
         </section>
     </div>
+    <script src="JS/form.js"></script>
 </body>
