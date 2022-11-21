@@ -3,6 +3,7 @@ body {
     font-family: Times;
     font-size: 19px;
     color: darkslategrey;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -214,6 +215,7 @@ li.dropdown {
 #sidebar img {
     margin: 5%;
     width: 90%;
+    border-radius: 5px;
 }
 
 #signup {
@@ -225,7 +227,7 @@ li.dropdown {
     color:#fff;
     text-align: center;
     padding: 10px;
-    margin-top:40px;
+    margin-top: 37px;
 }
 
 @media(max-width:1250px) {
