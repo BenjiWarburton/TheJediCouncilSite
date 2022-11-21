@@ -53,7 +53,8 @@ form.addEventListener("submit", function (event) {
 	let nameValid = hasValue(form.elements["name"], NAME_REQUIRED);
 	let emailValid = validateEmail(form.elements["email"], EMAIL_REQUIRED, EMAIL_INVALID);
 	// if valid, submit the form.
+	let action;
 	if (nameValid && emailValid) {
-		alert("Demo only. No form was posted.");
+		action = "mailto:jake.bowie1@gmail.com" //This is the web browser to send an email to this address. need to add a subject of their name, body of their comments and from their email
 	}
 });
