@@ -96,7 +96,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #showcase2 {
@@ -111,7 +111,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #showcaseDesignFRR {
@@ -126,7 +126,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #showcaseBigTechReg {
@@ -141,7 +141,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #showcaseDigitalDivide {
@@ -156,7 +156,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #showcaseContactUs {
@@ -171,7 +171,7 @@ li.dropdown {
     color: antiquewhite;
     font-size: 70px;
     line-height: 1.6em;
-    padding: 100px;
+    padding: 5%;
 }
 
 #main {
@@ -228,15 +228,16 @@ li.dropdown {
     margin-top:40px;
 }
 
-@media(max-width:600px) {
+@media(max-width:1250px) {
     #main {
         width: 100%;
         float: none;
     }
 
     #sidebar {
-        width: 100%;
         float: none;
+        display: none;
+
     }
 }
 
