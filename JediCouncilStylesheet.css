@@ -203,11 +203,6 @@ li.dropdown {
     margin-top: 20px;
 }
 
-.caption {
-    font-size: 15px;
-    text-align: center;
-}
-
 #sidebar p {
     padding: 5%;
 }
@@ -218,8 +213,19 @@ li.dropdown {
     border-radius: 5px;
 }
 
+#sidebar2 {
+    float: right;
+    width: 30%;
+    color: white;
+    background: darkslategrey;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 #signup {
-    margin: 5%;
+    padding: 5%;
 }
 
 #main-footer{
@@ -239,7 +245,11 @@ li.dropdown {
     #sidebar {
         float: none;
         display: none;
+    }
 
+    #sidebar2 {
+        width: 100%;
+        float: none;
     }
 }
 
