@@ -175,6 +175,10 @@ li.dropdown {
     padding: 5%;
 }
 
+#mainIndex {
+    text-indent: 0.5in;
+    text-align: justify;
+}
 #main {
     float: left;
     width: 65%;
