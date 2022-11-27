@@ -228,6 +228,10 @@ li.dropdown {
     margin-top: 20px;
 }
 
+#sidebar2 form {
+    padding: 5%;
+}
+
 #signup {
     padding: 5%;
 }
