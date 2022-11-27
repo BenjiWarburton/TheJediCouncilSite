@@ -45,27 +45,29 @@
         </section>
 
         <aside id = "sidebar2">
-           <form action="/signup" method="post" id="signup">
-                <h2>Sign Up</h2>
-                <div class="field">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name"/>
-                    <small></small>
-                </div>
-                <div class="field">
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Enter your email address"/>
-                    <small></small>
-                </div>
-                <div class="field">
-                    <label for="descript">Comments:</label>
-                    <br />
-                    <textarea type="text" id="descript" name="Comments" placeholder="Enter any additional comments" rows="8" cols="24"></textarea>
-                </div>
-                <p></p>
-                <button type="submit">Subscribe</button>
-           </form>
+          <form action="mailto:warburtonbenji@gmail.com" onsubmit="return validateForm()" method="get" enctype="text/plain" name="myForm" id="myForm" >
+          <div>
+            <label for="name">Name:
+              <input type="text" name="fname" id="name"/>
+            </label>
+          </div>
+          <div>
+            <label for="email">Email:
+              <input type="text" name="email" id="email" />
+            </label>
+          </div>
+          <div>
+            <label>Comments:</label>
+            <br />
+            <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
+          </div>
+          <div>
+            <input type="submit" name="submit" value="Send" />
+            <input type="reset" name="reset" value="Clear Form" />
+          </div>
+          </form>
         </aside>
+
     </div>
     <footer id="main-footer">
         <p>The Jedi Council</p>
