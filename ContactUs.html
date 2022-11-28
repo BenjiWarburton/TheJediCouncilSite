@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel = "stylesheet" type = "text/css" href = "JediCouncilStylesheet.css">
     <link rel = "shortcut icon" type = "image/x-icon" href = "img/JediCouncilLogo.png" />
-    <title>Contact Us</title>
+    <title>The Jedi Council</title>
 </head>
 <body>
 <!-- Main Header -->
@@ -41,33 +41,31 @@
         <!-- Main -->
         <section id = "main">
             <h1><em>Get in touch</em></h1>
-            <p>If you are interested and would like to give us feedback on our policies, please feel free to fill out the details required in the forms section and let us know what you think.</p>
+            <p>If you are interested and would like to give us feedback on our policies (which we will ignore like any good government body), please feel free to fill out the details required in the form section and let us know what you think</p>
         </section>
 
         <aside id = "sidebar2">
-          <form action="mailto:warburtonbenji@gmail.com" onsubmit="return validateForm()" method="get" enctype="text/plain" name="myForm" id="myForm" >
-          <div>
-            <label for="name">Name:
-              <input type="text" name="fname" id="name"/>
-            </label>
-          </div>
-          <div>
-            <label for="email">Email:
-              <input type="text" name="email" id="email" />
-            </label>
-          </div>
-          <div>
-            <label>Comments:</label>
-            <br />
-            <textarea name="comments" rows="12" cols="35">Send your comments to us.</textarea>
-          </div>
-          <div>
-            <input type="submit" name="submit" value="Send" />
-            <input type="reset" name="reset" value="Clear Form" />
-          </div>
-          </form>
+           <form action=mailto:warburtonbenji@gmail.com enctype="text/plain" method="get" id="signup">
+                <h2>Sign Up</h2>
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"/>
+                    <small></small>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email address"/>
+                    <small></small>
+                </div>
+                <div class="field">
+                    <label for="comments">Comments:</label>
+                    <br />
+                    <textarea type="text" id="comments" name="Comments" placeholder="Enter any additional comments" rows="8" cols="24"></textarea>
+                </div>
+                <p></p>
+                <button type="submit">Send us an email</button>
+           </form>
         </aside>
-
     </div>
     <footer id="main-footer">
         <p>The Jedi Council</p>
