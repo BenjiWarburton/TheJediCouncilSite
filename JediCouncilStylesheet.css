@@ -179,21 +179,19 @@ li.dropdown {
     text-indent: 0.5in;
     text-align: justify;
 }
+
 #main {
     float: left;
     width: 65%;
-    margin-right: 5%;
+    color: darkslategrey;
     box-sizing: border-box;
-    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 5%;
 }
 
 #main p {
-    text-align: justify;
     text-indent: 0.5in;
-}
-
-#main dd {
-    text-align: justify;
 }
 
 #sidebar {
@@ -228,11 +226,12 @@ li.dropdown {
     margin-top: 20px;
 }
 
-#sidebar2 form {
-    padding: 5%;
+#sidebar2 h3 {
+    margin: 0;
+    padding-bottom: 5%;
 }
 
-#signup {
+#sidebar2 form {
     padding: 5%;
 }
 
